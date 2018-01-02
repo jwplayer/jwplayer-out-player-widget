@@ -1,0 +1,26 @@
+{
+  "widgets": [
+    {
+      "widgetDivId": "recs-feed-1",
+      "playlist": "https://cdn.jwplayer.com/v2/playlists/tQv85ru3?related_media_id=8cyIGV0w",
+      "header": "Discover More Stories",
+      "textColor": "#fff",
+      "backgroundColor": "#000",
+      "iconColor": "#fff",
+      "widgetLayout": "spotlight",
+      "widgetSize": "large",
+      "videoPlayerId": "one-player"
+    },
+    {
+      "widgetDivId": "recs-feed-2",
+      "playlist": "https://cdn.jwplayer.com/v2/playlists/tQv85ru3?related_media_id=8cyIGV0w",
+      "header": "Don't Miss These Videos:",
+      "textColor": "#e984bb",
+      "backgroundColor": "#fff",
+      "iconColor": "#98ac70",
+      "widgetLayout": "shelf",
+      "widgetSize": "medium",
+      "videoPlayerId": "another-player"
+    }
+  ]
+}
