@@ -38,7 +38,7 @@ widgetLayout | Defines the layout design of the widget ("spotlight" or "shelf").
 widgetSize | Sets the breakpoint of the widget ("large", "medium", or "small")
 
 ## Retrieving your Playlist JSON url
-To use a recommended feed of videos for your widget, follow these steps:
+To use a **recommended feed of videos** for your widget, follow these steps:
 
 1. Log into your [JW Player Dashboard](https://dashboard.jwplayer.com) account.
 2. Navigate to **Recommendations** using the left navigation.
@@ -47,10 +47,10 @@ To use a recommended feed of videos for your widget, follow these steps:
 
 **Example recommendations JSON url:**
 ```
-https://cdn.jwplayer.com/v2/playlists/{playlistID}?related_media_id={mediaID}
+https://cdn.jwplayer.com/v2/playlists/{playlist_id}?related_media_id={media_id}
 ```
 
-To use a manual or dynamically curated playlist, follow these steps:
+To use a **manual or dynamically curated playlist**, follow these steps:
 
 1. Log into your [JW Player Dashboard](https://dashboard.jwplayer.com) account.
 2. Navigate to **Curated Playlists** using the left navigation.
@@ -59,9 +59,24 @@ To use a manual or dynamically curated playlist, follow these steps:
 
 **Example playlist JSON url:**
 ```
-https://cdn.jwplayer.com/v2/playlists/{mediaID}
+https://cdn.jwplayer.com/v2/playlists/{playlist_id}
 ```
 
+To use playlists programmatically, follow these steps:
+1. Review the [Delivery API Reference](https://developer.jwplayer.com/jw-platform/docs/delivery-api-reference/#!/playlists/get_v2_playlists_playlist_id).
+2. Navigate to the **Playlists** endpoint.
+3. Add your playlist_id and related_media_id parameters.
+4. Click **Try it out!** to generate a CURL response and copy the JSON url.
+
+**Example recommendations JSON url:**
+```
+https://cdn.jwplayer.com/v2/playlists/{playlist_id}?related_media_id={media_id}
+```
+
+**Example playlist JSON url:**
+```
+https://cdn.jwplayer.com/v2/playlists/{playlist_id}
+```
 
 ## Embed the HTML
 1. The `widget.html` file contains the HTML template for the widget.
