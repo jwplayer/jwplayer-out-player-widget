@@ -50,7 +50,7 @@ https://cdn.jwplayer.com/v2/playlists/{playlistID}?related_media_id={mediaID}
 To use a manual or dynamically curated playlist, you can follow these steps:
 
 1. Log into your JW Player Dashboard account.
-2. Navigate to *Curated Playlists* using the left navigation.
+2. Navigate to **Curated Playlists** using the left navigation.
 3. Click into a playlist from the list.
 4. Toggle source url to JSON and copy the url.
 
@@ -61,9 +61,9 @@ https://cdn.jwplayer.com/v2/playlists/{mediaID}
 
 
 ## Embed the HTML
-1. `widget.html` contains the HTML template for the widget.
-2. Paste this HTML wherever you'd like your widget to appear in your content.
-3. Notice that the id has been left blank — **add your own unique id to keep track of your widget**.
+1. The `widget.html` file contains the HTML template for the widget.
+2. Paste this HTML wherever you'd like your widget to appear within your content.
+3. Notice that the id has been left blank — **add your own unique id to specify your widget**.
 For example:
 ```
 <div id="related-videos-feed" class="jw-widget">...</div>
