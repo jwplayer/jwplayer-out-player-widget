@@ -38,7 +38,7 @@ widgetLayout | Defines the layout design of the widget ("spotlight" or "shelf").
 widgetSize | Sets the breakpoint of the widget ("large", "medium", or "small")
 
 ## Retrieving your Playlist JSON url
-To use a recommended feed of videos for your widget, you can follow these steps:
+To use a recommended feed of videos for your widget, follow these steps:
 
 1. Log into your [JW Player Dashboard](https://dashboard.jwplayer.com) account.
 2. Navigate to **Recommendations** using the left navigation.
@@ -50,7 +50,7 @@ To use a recommended feed of videos for your widget, you can follow these steps:
 https://cdn.jwplayer.com/v2/playlists/{playlistID}?related_media_id={mediaID}
 ```
 
-To use a manual or dynamically curated playlist, you can follow these steps:
+To use a manual or dynamically curated playlist, follow these steps:
 
 1. Log into your [JW Player Dashboard](https://dashboard.jwplayer.com) account.
 2. Navigate to **Curated Playlists** using the left navigation.
