@@ -4,7 +4,7 @@ A javascript based widget to embed a feed of videos hosted in the JW Platform wi
 ### [DEMO](http://developer.jwplayer.com)
 
 ## Configuration File
-You will need to include a `config.json` at the root of your project to implement your widget appropriately. By default the `config.json` file is populated with default options but you will need to include your own data for the first 3 options in the config: `widgetDivId`,`playlist`, and `videoPlayerId`. 
+You will need to include a `config.json` at the root of your project to implement your widget appropriately. The `config.json` file is populated with default options, but you will need to include your own data for the first 3 options in the config: `widgetDivId`,`playlist`, and `videoPlayerId`.
 
 The JSON must remain in this format:
 ```
@@ -27,9 +27,9 @@ The JSON must remain in this format:
 ### Options
 Option | Description
 ------------ | -------------
-widgetDivId | The id of the div container you will include the widget html within. This allows for more than widget to be included on a single page.
+widgetDivId | The id of the div containing the widget html. This allows for more than widget to be included on a single page.
 playlist | The json url to your playlist or recommendations feed.
-videoPlayerId | The id of the div that is wrapping your JW Player video player. This tells the widget which player to send a play() event to on the page.
+videoPlayerId | The id of the div containing your JW Player video player. This tells the widget which player to send a play() event to on the page.
 header | The title for your feed of videos.
 textColor | Hex value for all the text color in the widget UI.
 backgroundColor | Hex value for the background color of the entire widget.
