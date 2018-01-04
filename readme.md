@@ -31,14 +31,14 @@ widgetDivId | The id of the div containing the widget html. This allows for more
 playlist | The json url to your playlist or recommendations feed.
 videoPlayerId | The id of the div containing your JW Player video player. This tells the widget which player to send a play() event to on the page.
 header | The title for your feed of videos.
-textColor | Hex value for all the text color in the widget UI.
+textColor | Hex value for the text color in the widget UI.
 backgroundColor | Hex value for the background color of the entire widget.
 iconColor | Hex value for the color of the left and right arrow svgs.
 widgetLayout | Defines the layout design of the widget ("spotlight" or "shelf").
 widgetSize | Sets the breakpoint of the widget ("large", "medium", or "small")
 
 ## Retrieving your Playlist JSON url
-To use a **recommended feed of videos** for your widget, follow these steps:
+To use a **recommended feed of videos** for in widget, follow these steps:
 
 1. Log into your [JW Player Dashboard](https://dashboard.jwplayer.com) account.
 2. Navigate to **Recommendations** using the left navigation.
