@@ -1,10 +1,12 @@
 # JW Player Out-Player Widget
 A javascript based widget to embed a feed of videos hosted in the JW Platform within your own site.
 
-### [DEMO](http://developer.jwplayer.com)
+### [DEMO: Out-Player Widget on Articles](https://developer.jwplayer.com/jw-player/demos/advanced/out-player-widget%20-%20article%20embed/)
+
+### [DEMO: Out-Player Widget on a Single Page Video Site](https://developer.jwplayer.com/jw-player/demos/advanced/out-player-widget%20-%20video%20app/)
 
 ## Configuration File
-You will need to include a `config.json` at the root of your project to implement your widget appropriately. The `config.json` file is populated with default options, but you will need to include your own data for the first 3 options in the config: `widgetDivId`,`playlist`, and `videoPlayerId`.
+You will need to include the `jw-widget` within your project to implement your widget appropriately. The `config.json` file is populated with default options, but you will need to include your own data for the first 3 options in the config: `widgetDivId`,`playlist`, and `videoPlayerId`.
 
 The JSON must remain in this format:
 ```
